@@ -8,9 +8,7 @@ class Counter extends Component {
   render() {
     return ( 
       <React.Fragment>
-        <p> Hello World!</p>
-        <p>following is one counter ----</p>
-        <Button variant="primary">Primary</Button>{' '}
+        <Button className="Button btn-primary">button</Button>
       </React.Fragment>
     )
   }
